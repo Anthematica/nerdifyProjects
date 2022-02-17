@@ -24,6 +24,14 @@ header {
     width: 100%;
     height: 112px;
     background-color: var(--gray);
+    display: flex;
+    justify-content: center;
+}
+
+.prueba {
+    width: 100%;
+    height: 112px;
+    max-width: 1440px;
 }
 
 .header__navigation {
@@ -104,6 +112,13 @@ header {
     width: 100%;
     height: 100vh;
     display: flex;
+    
+}
+
+.prueba2 {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .main__links {
@@ -251,6 +266,12 @@ header {
     font-weight: 500;
     margin-inline-end: 16px;
 }
+
+.inferior_header {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 
 
 
